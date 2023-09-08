@@ -1,13 +1,18 @@
-
+import React from 'react';
 import styled from 'styled-components'
 import Header from "./components/Header";
-import GlobalStyles from "./GlobalStyle";
+import EmailComponent from './components/eMailComponent';
+import Mybutton from "./components/Mybutton"
+import Progress from './components/Progress';
+
 
 const App = () => {
   return (
     <Wrapper className="App" data-testid="app">
       <Header />
-      <GlobalStyles />
+      <EmailComponent />
+      <Mybutton />
+      <Progress />
     </Wrapper>
   );
 }
